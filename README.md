@@ -1,13 +1,7 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 6](https://www.youtube.com/watch?v=A90UT3o5bMk) was published on August 7, 2016.  Net Ninja says to make a styles.css file in the public directory, but there isn't one.
-
-No worries.  You can just use the one that is already created for us in src/styles.css.  Import it to index.html by adding this line:
-
-```
-  <link rel="stylesheet" type="text/css" href="styles.css">
-```
-
+The [Net Ninja Youtube Tutorial Lesson 8](https://www.youtube.com/watch?v=uQZDNTeR44E) was published on August 9, 2016. At this time, there is no need to import the home component or add the directives.  Hence this branch is exactly like Lesson 7.
+ 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
 
