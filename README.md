@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The tutorial was published on August 16, 2016.  I started working with it in January, 2017, and there were already some differences in the code that Angular 2 generated for me.
+The [Net Ninja Youtube Tutorial](https://www.youtube.com/watch?v=DwTNR3EBSJQ) was published on August 16, 2016.  I started working with it in January, 2017, and there were already some differences in the code that Angular 2 generated for me.
 
 When I typed `ng -v` on the command line, I got this:
 
