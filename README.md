@@ -2,6 +2,12 @@
 
 The [Net Ninja Youtube Tutorial Lesson 21](https://www.youtube.com/watch?v=iCmV2jBdDS8) was published on September 5, 2016.
 
+The input for the filter needs to look like this:
+```
+  <input type="text" [ngModelOptions]="{standalone:true}" [(ngModel)]="term" />
+```
+
+Also, I did not need to import the FilterPipe to the direcory.components.ts
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
