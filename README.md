@@ -2,28 +2,17 @@
 
 The [Net Ninja Youtube Tutorial Lesson 24](https://www.youtube.com/watch?v=IOp9OmNdHy4) was published on September 9, 2016.
 
-I'm calling this branch 24-1.  It follows the tutorial through approximately 8:06.
+I'm calling this branch 24-2.  It follows the tutorial from approximately 8:06 through approximately 9:09.
 
 Here are the ways in which I diverted from following the tutorial:
 
-* The ninjas.json file needs to go in the src directory.
-* You do not need to import the HTTP_PROVIDERS in main.ts.  They are already there from src/app/app.module.ts.
-* I removed the src/app/data.service.spec.ts file after I created the data service.
-* In data.service.ts, I did not need the return in fetchData at this point.  My code looked like this:
+* For my version on typescript (typescript@2.0.10 (On OSX, I got the version by entering `npm list typescript` from the terminal)), I got errors that looked like this:
 ```
-  fetchData () {
-    this.http.get('/ninjas.json').subscribe(
-      (data) => console.log(data)
-    );  
-  }
-``` 
-* In src/app/directory/directory.component.ts I did not need a providers array in the decorator. Rather, I needed to fix up src/app/app.module.ts.  I added this line at the top:
+Module build failed: Error: /Users/razoyo-dev/apps2/ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
 ```
-import { DataService } from './data.service';
+To fix it, I needed to add this at the top of src/app/data.service.ts:
 ```
-And added it to the list of providers like this:
-```
-providers: [LoggingService, DataService],
+import 'rxjs/Rx';
 ```
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
