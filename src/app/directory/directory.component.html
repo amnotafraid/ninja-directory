@@ -1,11 +1,13 @@
-<p [ngClass]="classes">
-  directory works!
-</p>
+<h2>Ninja Listing</h2>
 
-<p *ngIf="test">Only show if test is true</p>
-
-<style>
-  .blue { color: blue; }
-  .red { color: red; }
-  .underline { text-decoration: underline }
-</style>
+<ul id="ninja-listing">
+  <li *ngFor="let ninja of ninjas">
+    <div class="single-ninja">
+      <!-- Belt Color -->
+      <span [ngStyle]="{background: ninja.belt}">{{ninja.belt}} belt</span>
+      <!-- Ninja Name -->
+      <h3>{{ninja.name}}</h3>
+      <div (click)="remove($event)" [attr.data-name]="ninja.name">delete</div>
+    </div> 
+  </li>
+</ul>
