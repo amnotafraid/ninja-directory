@@ -1,8 +1,17 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 9](https://www.youtube.com/watch?v=7RQDIChgaZk) was published on August 13, 2016. 
+The [Net Ninja Youtube Tutorial Lesson 10](https://www.youtube.com/watch?v=VF47uWWql04) was published on August 13, 2016.
 
-I didn't need to change anything to get the code to work as expected.
+Here's the stuff that I'll need to remember from this lesson:
+```
+{{ title }} (always resolves to a string)
+
+<input [required]='expression'>  (the expression is true or false)
+
+<button (click)='expression/function'> (bind events with certain elements)
+
+<input [(ngModel)]="model/object">
+```
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
