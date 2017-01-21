@@ -3,6 +3,7 @@
 The [Net Ninja Youtube Tutorial Lesson 8](https://www.youtube.com/watch?v=uQZDNTeR44E) was published on August 9, 2016. At this time, there is no need to import the home component or add the directives.  Hence this branch is exactly like Lesson 7.
  
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
