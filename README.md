@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 20](https://www.youtube.com/watch?v=GqTJy9VALhI) was published on September 4, 2016.
+The [Net Ninja Youtube Tutorial Lesson 21](https://www.youtube.com/watch?v=iCmV2jBdDS8) was published on September 5, 2016.
 
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
