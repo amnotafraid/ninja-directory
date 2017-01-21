@@ -1,14 +1,17 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 21](https://www.youtube.com/watch?v=iCmV2jBdDS8) was published on September 5, 2016.
+The [Net Ninja Youtube Tutorial Lesson 23](https://www.youtube.com/watch?v=74NARvL2BI0) was published on September 5, 2016.
 
-The input for the filter needs to look like this:
+To make the service 'global', you have to change src/app/app.modules.ts.  Like this:
 ```
-  <input type="text" [ngModelOptions]="{standalone:true}" [(ngModel)]="term" />
+ import { RouterModule, Routes } from '@angular/router';
+ import { APP_ROUTES } from './app.routes';
+ import { FilterPipe } from './filter.pipe';
++import { LoggingService } from './logging.service';
+ 
+-  providers: [],
++  providers: [LoggingService],
 ```
-
-Also, I did not need to import the FilterPipe to the direcory.components.ts
-
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
 
