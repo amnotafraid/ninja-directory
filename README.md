@@ -9,6 +9,7 @@ No worries.  You can just use the one that is already created for us in src/styl
 ```
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
