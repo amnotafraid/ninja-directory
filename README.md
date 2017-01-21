@@ -1,18 +1,33 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 23](https://www.youtube.com/watch?v=74NARvL2BI0) was published on September 5, 2016.
+The [Net Ninja Youtube Tutorial Lesson 24](https://www.youtube.com/watch?v=IOp9OmNdHy4) was published on September 9, 2016.
 
-To make the service 'global', you have to change src/app/app.modules.ts.  Like this:
+I'm calling this branch 24-1.  It follows the tutorial through approximately 8:06.
+
+Here are the ways in which I diverted from following the tutorial:
+
+* The ninjas.json file needs to go in the src directory.
+* You do not need to import the HTTP_PROVIDERS in main.ts.  They are already there from src/app/app.module.ts.
+* I removed the src/app/data.service.spec.ts file after I created the data service.
+* In data.service.ts, I did not need the return in fetchData at this point.  My code looked like this:
 ```
- import { RouterModule, Routes } from '@angular/router';
- import { APP_ROUTES } from './app.routes';
- import { FilterPipe } from './filter.pipe';
-+import { LoggingService } from './logging.service';
- 
--  providers: [],
-+  providers: [LoggingService],
+  fetchData () {
+    this.http.get('/ninjas.json').subscribe(
+      (data) => console.log(data)
+    );  
+  }
+``` 
+* In src/app/directory/directory.component.ts I did not need a providers array in the decorator. Rather, I needed to fix up src/app/app.module.ts.  I added this line at the top:
 ```
+import { DataService } from './data.service';
+```
+And added it to the list of providers like this:
+```
+providers: [LoggingService, DataService],
+```
+
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+---
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.

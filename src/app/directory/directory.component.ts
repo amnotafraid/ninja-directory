@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { LoggingService } from '../logging.service';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-directory',
@@ -9,18 +10,15 @@ import { LoggingService } from '../logging.service';
 })
 export class DirectoryComponent implements OnInit {
 
-  ninjas = [
-    { name: 'Yoshi', belt: 'black' },
-    { name: 'Ryu', belt: 'red' },
-    { name: 'Crystal', belt: 'purple' }
-  ];
-  constructor(private logger: LoggingService) { }
+  ninjas = [ ];
+  constructor(private logger: LoggingService, private dataService: DataService) { }
 
   logIt() {
     this.logger.log();
   }
 
   ngOnInit() {
+		this.dataService.fetchData();
   }
 
 }
