@@ -1,12 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 12](https://www.youtube.com/watch?v=uh5ZKGEEAkY) was published on August 15, 2016.
-
-This is what I need to remember from this lesson:
-
-```
-<app-home (update)="function"></app-home>
-```
+The [Net Ninja Youtube Tutorial Lesson 13](https://www.youtube.com/watch?v=HXjVelFtpuQ) was published on August 18, 2016.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory

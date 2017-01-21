@@ -3,12 +3,11 @@
 </p>
 <ng-content></ng-content>
 
-<!-- property binding -->
-<input value="{{myString}}" />
-<input required="{{myBoolean}}" />
-<button (click)="alertMe('I like beef')">Click me</button>
-<!-- alternative -
-<input [value]="myString" />
-<input [required]="myBoolean" />
--->
-
+<!-- @-way data binding -->
+<label>Name:</label>
+<input [(ngModel)]="ninja.name" />
+<label>Belt:</label>
+<input [(ngModel)]="ninja.belt" />
+<p>{{ninja.name}}</p>
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p>
