@@ -5,6 +5,7 @@ The [Net Ninja Youtube Tutorial Lesson 9](https://www.youtube.com/watch?v=7RQDIC
 I didn't need to change anything to get the code to work as expected.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
