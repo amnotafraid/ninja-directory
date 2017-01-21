@@ -7,7 +7,7 @@ export class DataService {
 
   constructor(private http: Http) { }
 
-  fetchData () {
+  fetchData() {
     return this.http.get('/ninjas.json').map(
       (res) => res.json()
     );

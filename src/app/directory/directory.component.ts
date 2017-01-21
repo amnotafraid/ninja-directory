@@ -10,7 +10,7 @@ import { DataService } from '../data.service';
 })
 export class DirectoryComponent implements OnInit {
 
-  ninjas = [ ];
+  ninjas = [];
   constructor(private logger: LoggingService, private dataService: DataService) { }
 
   logIt() {
@@ -18,8 +18,8 @@ export class DirectoryComponent implements OnInit {
   }
 
   ngOnInit() {
-		this.dataService.fetchData().subscribe(
-      (data) => console.log(data)
+    this.dataService.fetchData().subscribe(
+      (data) => this.ninjas = data
     );
   }
 
