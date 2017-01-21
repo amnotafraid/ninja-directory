@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 21](https://www.youtube.com/watch?v=iCmV2jBdDS8) was published on September 5, 2016.
+The [Net Ninja Youtube Tutorial Lesson 22](https://www.youtube.com/watch?v=sVTNaYBVP88) was published on September 5, 2016.
 
 The input for the filter needs to look like this:
 ```
