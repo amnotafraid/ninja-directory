@@ -2,17 +2,17 @@
 
 The [Net Ninja Youtube Tutorial Lesson 24](https://www.youtube.com/watch?v=IOp9OmNdHy4) was published on September 9, 2016.
 
-I'm calling this branch 24-2.  It follows the tutorial from approximately 8:06 through approximately 9:09.
+I'm calling this branch 24-3.  It follows the tutorial from approximately 9:09 through approximately 10:18. (Baby steps!)
 
 Here are the ways in which I diverted from following the tutorial:
 
-* For my version on typescript (typescript@2.0.10 (On OSX, I got the version by entering `npm list typescript` from the terminal)), I got errors that looked like this:
+* When I moved the subscribe from the fetchData in the data.service.ts to the ngOnInit() function in directory.component.ts, I had to add the return in the directory service.  Like this:
 ```
-Module build failed: Error: /Users/razoyo-dev/apps2/ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
-```
-To fix it, I needed to add this at the top of src/app/data.service.ts:
-```
-import 'rxjs/Rx';
+  fetchData () {
+    return this.http.get('/ninjas.json').map(
+      (res) => res.json()
+    );  
+  }
 ```
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.

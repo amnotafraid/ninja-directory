@@ -8,10 +8,8 @@ export class DataService {
   constructor(private http: Http) { }
 
   fetchData () {
-    this.http.get('/ninjas.json').map(
+    return this.http.get('/ninjas.json').map(
       (res) => res.json()
-    ).subscribe(
-      (data) => console.log(data)
     );
   }
 }
