@@ -1,46 +1,8 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 24](https://www.youtube.com/watch?v=IOp9OmNdHy4) was published on September 9, 2016.
+The [Net Ninja Youtube Tutorial Lesson 25](https://www.youtube.com/watch?v=H9HZ41vM7mk) was published on September 13, 2016.
 
-* Rather than putting ninjas.json in the public folder, you can put it in the src directory.
-* You don't have to import HTTP_PROVIDERS in main.ts.  It is already available in src/app/app.module.ts.
-* For the first few tests, in src/app/data.service.ts, Ninja's code looked like this, but it didn't work for me:
-```
-  fetchData() {
-    return this.http.get('/ninjas.json').subscribe(
-      (data) => console.log(data)
-    )
-  }
-```
-Rather, this code worked:
-```
-  fetchData() {
-    this.http.get('/ninjas.json').subscribe(
-      (data) => console.log(data)
-    );  
-  }
-```
-In the second test, when Ninja added the map to the observer, I started getting errors like this:
-```
-ERROR in ./src/app/data.service.ts
-Module build failed: Error: /Users/razoyo-dev/apps2/ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
-```
-I fixed this by adding this line to the imports:
-```
-import 'rxjs/Rx';
-```
-From what I read, this error depends on what version of typescript you are using.  To find the typescript version, you can type this in the terminal (in OSX):
-```
-npm list typescript
-```
-Mine was: typescript@2.0.10 
-
-Finally, when the subscribe is moved to the ngOnInit() in src/app/directory/directory.component.ts, the fetchData in the data service had to be a return.
-
-All this is pretty confusing, so I plan to break it down into different steps.
-
-
-* In src/app/directory/directory.component.ts, I did not need to add a providers array to the decorator.  All I had to do was to import it at the top.  I did need to inject it in the constructor.
+Oh, no!  I have committed the link to my firebase database!  Good grief!  Somebody might change my belt color!
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ---
