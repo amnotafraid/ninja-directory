@@ -1,8 +1,7 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 17](https://www.youtube.com/watch?v=NPCdCknF6TY&t=4s) was published on August 25, 2016.
+The [Net Ninja Youtube Tutorial Lesson 18](https://www.youtube.com/watch?v=8KPPRzRLvjc) was published on August 25, 2016.
 
-First things first.  You must copy the styles.css file to src/styles.css and the logo.png file to src/logo.png.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
