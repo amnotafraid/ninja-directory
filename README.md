@@ -1,8 +1,7 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 25](https://www.youtube.com/watch?v=H9HZ41vM7mk) was published on September 13, 2016.
+The [Net Ninja Youtube Tutorial Lesson 26](https://www.youtube.com/watch?v=Fb9o2uwRAk0) was published on September 13, 2016.
 
-Oh, no!  I have committed the link to my firebase database!  Good grief!  Somebody might change my belt color!
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ---
