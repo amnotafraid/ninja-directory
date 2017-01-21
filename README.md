@@ -1,49 +1,8 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 16](https://www.youtube.com/watch?v=patjvNM9Qbc) was published on August 24, 2016.
+The [Net Ninja Youtube Tutorial Lesson 17](https://www.youtube.com/watch?v=NPCdCknF6TY&t=4s) was published on August 25, 2016.
 
-There were quite a few changes from the tutorial.
-
-* In the src/app/app.routes.ts file, all I really did was build an array:
-```
-import { DirectoryComponent } from "./directory/directory.component";
-import { HomeComponent } from "./home/home.component";
-
-export const APP_ROUTES = [ 
-  { path: 'directory', component: DirectoryComponent },
-  { path: '', component: HomeComponent }
-];
-```
-* I didn't have to make any changes to src/main.ts.
-* I didn't have to make any changes to src/app/app.components.ts
-* In the src/app/home/home.components.html file, I had to comment this out:
-```
-<!--
-<p>{{ninja.name}}</p>
-<p>{{ninja.belt}}</p>
--->
-```
-* In the src/app/app.module.ts file, I had to make these changes:
- import { AppComponent } from './app.component';
- import { HomeComponent } from './home/home.component';
-+import { DirectoryComponent } from './directory/directory.component';
-+import { RouterModule, Routes } from '@angular/router';
-+import { APP_ROUTES } from './app.routes';
- 
- @NgModule({
-   declarations: [
-     AppComponent,
--    HomeComponent
-+    HomeComponent,
-+    DirectoryComponent
-   ],
-   imports: [
-     BrowserModule,
-     FormsModule,
--    HttpModule
-+    HttpModule,
-+    RouterModule.forRoot(APP_ROUTES)
-
+First things first.  You must copy the styles.css file to src/styles.css and the logo.png file to src/logo.png.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
