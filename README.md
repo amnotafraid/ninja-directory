@@ -1,28 +1,13 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 11](https://www.youtube.com/watch?v=VkxyuKuJZrM) was published on August 15, 2016.
+The [Net Ninja Youtube Tutorial Lesson 12](https://www.youtube.com/watch?v=uh5ZKGEEAkY) was published on August 15, 2016.
 
-This did not work for me:
+This is what I need to remember from this lesson:
+
 ```
-<input [required]="myBoolean" />
+<app-home (update)="function"></app-home>
 ```
-When I inspected the element in Chrome, it looked like this:
-```
-<input _ngcontent-dxd-1> == $0
-```
-This also didn't work for me:
-```
-<input required="{{myBoolean}}" />
-```
-When I inspected the element in Chrome, it looked like this:
-```
-<input _ngcontent-ncg-1 ng-reflect-required="false" required> == $0
-```
-Either of these worked for me:
-```
-<input value="{{myString}}" />
-<input [value]="myString" />
-```
+
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 # NinjaDirectory
 
