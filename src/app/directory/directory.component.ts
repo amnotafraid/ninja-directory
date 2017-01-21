@@ -12,6 +12,8 @@ declare var firebase: any;
 export class DirectoryComponent implements OnInit {
 
   ninjas = [];
+  name = '';
+  belt = '';
   constructor(private logger: LoggingService, private dataService: DataService) { }
 
   logIt() {
@@ -32,4 +34,7 @@ export class DirectoryComponent implements OnInit {
     })
   }
 
+  fbPostData(name, belt) {
+    firebase.database().ref('/').push({name: name, belt: belt})
+  }
 }
