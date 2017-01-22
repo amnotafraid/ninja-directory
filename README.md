@@ -24,6 +24,7 @@ export const APP_ROUTES = [
 -->
 ```
 * In the src/app/app.module.ts file, I had to make these changes:
+```
  import { AppComponent } from './app.component';
  import { HomeComponent } from './home/home.component';
 +import { DirectoryComponent } from './directory/directory.component';
@@ -43,9 +44,11 @@ export const APP_ROUTES = [
 -    HttpModule
 +    HttpModule,
 +    RouterModule.forRoot(APP_ROUTES)
-
+```
+(BTW + means line added.  - means line deleted.)
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
