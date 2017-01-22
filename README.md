@@ -12,6 +12,11 @@ ng serve
 ```
 And you will be able to see the application here:  [http://localhost:4200](http://localhost:4200)
 
+If you clone this repository, you need to install the local node_modules like this:
+```
+npm install
+```
+
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ***
 # NinjaDirectory
