@@ -37,10 +37,13 @@ Mine was: typescript@2.0.10
 
 Finally, when the subscribe is moved to the ngOnInit() in src/app/directory/directory.component.ts, the fetchData in the data service had to be a return.
 
-All this is pretty confusing, so I plan to break it down into different steps.
-
 
 * In src/app/directory/directory.component.ts, I did not need to add a providers array to the decorator.  All I had to do was to import it at the top.  I did need to inject it in the constructor.
+
+All this is pretty confusing, so I plan to break it down into different steps.  Please see branches:
+ * Lesson24-1
+ * Lesson24-2
+ * Lesson24-3
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ***
