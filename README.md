@@ -4,6 +4,7 @@ The [Net Ninja Youtube Tutorial Lesson 19](https://www.youtube.com/watch?v=Wwix0
 
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
