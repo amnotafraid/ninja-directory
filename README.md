@@ -6,6 +6,12 @@ To create a new project with the Angular CLI:
 ```
 ng new ninja-directory
 ```
+To compile and serve the project:
+```
+ng serve
+```
+And you will be able to see the application here:  [http://localhost:4200](http://localhost:4200)
+
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ***
 # NinjaDirectory
