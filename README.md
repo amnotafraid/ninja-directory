@@ -18,12 +18,13 @@ When I inspected the element in Chrome, it looked like this:
 ```
 <input _ngcontent-ncg-1 ng-reflect-required="false" required> == $0
 ```
-Either of these worked for me:
+Either of these *_did_* work for me:
 ```
 <input value="{{myString}}" />
 <input [value]="myString" />
 ```
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
