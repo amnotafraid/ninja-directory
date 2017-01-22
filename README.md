@@ -5,7 +5,7 @@ The [Net Ninja Youtube Tutorial Lesson 25](https://www.youtube.com/watch?v=H9HZ4
 Oh, no!  I have committed the link to my firebase database!  Good grief!  Somebody might change my belt color!
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
----
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
