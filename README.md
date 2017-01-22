@@ -2,6 +2,11 @@
 
 The [Net Ninja Youtube Tutorial](https://www.youtube.com/watch?v=DwTNR3EBSJQ) was published on August 16, 2016.  I started working with it in January, 2017, and there were already some differences in the code that Angular 2 generated for me.
 
+This is the initial code that `ng new ninja-directory` created for me.  To see the completed code, you must look at branch Lesson27.  To clone that code you can do this:
+```
+git clone https://github.com/amnotafraid/ninja-directory -b Lesson27
+```
+
 When I typed `ng -v` on the command line, I got this:
 ```
 angular-cli: 1.0.0-beta.24
