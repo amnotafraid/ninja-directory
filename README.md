@@ -3,7 +3,7 @@
 The [Net Ninja Youtube Tutorial](https://www.youtube.com/watch?v=DwTNR3EBSJQ) was published on August 16, 2016.  I started working with it in January, 2017, and there were already some differences in the code that Angular 2 generated for me.
 
 When I typed `ng -v` on the command line, I got this:
-
+```
 angular-cli: 1.0.0-beta.24
 node: 6.0.0
 os: darwin x64
@@ -16,9 +16,8 @@ os: darwin x64
 @angular/platform-browser-dynamic: 2.4.4
 @angular/router: 3.4.4
 @angular/compiler-cli: 2.4.4
-
-Below the horizontal line is readme that Angular 2 kindly generated for me.
----
+```
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
