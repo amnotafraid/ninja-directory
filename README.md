@@ -3,6 +3,7 @@
 The [Net Ninja Youtube Tutorial Lesson 14](https://www.youtube.com/watch?v=qenFRHDxU6E) was published on August 18, 2016.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
