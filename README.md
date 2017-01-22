@@ -2,6 +2,10 @@
 
 The [Net Ninja Youtube Tutorial Lesson 2](https://www.youtube.com/watch?v=5OLLPQq1GqQ&t=45s) was published on August 6, 2016.
 
+To create a new project with the Angular CLI:
+```
+ng new ninja-directory
+```
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ***
 # NinjaDirectory
