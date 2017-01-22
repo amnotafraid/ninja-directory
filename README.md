@@ -2,11 +2,11 @@
 
 The [Net Ninja Youtube Tutorial Lesson 27](https://www.youtube.com/watch?v=YEizFZ6eaas) was published on September 13, 2016.
 
-* In the directory.component.html, I needed to add [ngModelOptions]="{standalone:true}" to the new <input ../>s
+* In the directory.component.html, I needed to add [ngModelOptions]="{standalone:true}" to the new `<input ../>`s
 * In the directory.component.ts, I needed to add a name and belt variable to go with the model in the new form. 
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
----
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
