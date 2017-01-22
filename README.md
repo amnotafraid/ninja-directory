@@ -4,7 +4,7 @@ The [Net Ninja Youtube Tutorial Lesson 7](https://www.youtube.com/watch?v=GMkF1i
 
 This is how you generate a new component named 'home':
 ```
-ng generate new component home
+ng generate component home
 ```
 You should do this in the src/app directory.
 
