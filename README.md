@@ -8,7 +8,7 @@ Here are the ways in which I diverted from following the tutorial:
 
 * For my version on typescript (typescript@2.0.10 (On OSX, I got the version by entering `npm list typescript` from the terminal)), I got errors that looked like this:
 ```
-Module build failed: Error: /Users/razoyo-dev/apps2/ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
+Module build failed: Error: ...ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
 ```
 To fix it, I needed to add this at the top of src/app/data.service.ts:
 ```
