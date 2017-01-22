@@ -12,7 +12,10 @@ To make the service 'global', you have to change src/app/app.modules.ts.  Like t
 -  providers: [],
 +  providers: [LoggingService],
 ```
+BTW + means line added. - means line deleted.
+
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
