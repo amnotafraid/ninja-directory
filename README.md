@@ -5,6 +5,7 @@ The [Net Ninja Youtube Tutorial Lesson 17](https://www.youtube.com/watch?v=NPCdC
 First things first.  You must copy the styles.css file to src/styles.css and the logo.png file to src/logo.png.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
