@@ -23,7 +23,7 @@ Rather, this code worked:
 In the second test, when Ninja added the map to the observer, I started getting errors like this:
 ```
 ERROR in ./src/app/data.service.ts
-Module build failed: Error: /Users/razoyo-dev/apps2/ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
+Module build failed: Error: ...ninja-directory/src/app/data.service.ts (10,35): Property 'map' does not exist on type 'Observable<Response>'.)
 ```
 I fixed this by adding this line to the imports:
 ```
