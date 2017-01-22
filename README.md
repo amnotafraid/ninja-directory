@@ -43,7 +43,7 @@ All this is pretty confusing, so I plan to break it down into different steps.
 * In src/app/directory/directory.component.ts, I did not need to add a providers array to the decorator.  All I had to do was to import it at the top.  I did need to inject it in the constructor.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
----
+***
 # NinjaDirectory
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
