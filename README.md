@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 16](https://www.youtube.com/watch?v=patjvNM9Qbc) was published on August 24, 2016.
+The [Net Ninja Youtube Tutorial Lesson 16 - Routing](https://www.youtube.com/watch?v=patjvNM9Qbc) was published on August 24, 2016.
 
 There were quite a few changes from the tutorial.
 
