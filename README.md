@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 10](https://www.youtube.com/watch?v=VF47uWWql04) was published on August 13, 2016.
+The [Net Ninja Youtube Tutorial Lesson 10 - Data Binding](https://www.youtube.com/watch?v=VF47uWWql04) was published on August 13, 2016.
 
 Here's the stuff that I'll need to remember from this lesson:
 ```
