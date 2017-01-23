@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 7](https://www.youtube.com/watch?v=GMkF1iUY3n8) was published on August 9, 2016.
+The [Net Ninja Youtube Tutorial Lesson 7 - Creating a Component](https://www.youtube.com/watch?v=GMkF1iUY3n8) was published on August 9, 2016.
 
 This is how you generate a new component named 'home':
 ```
