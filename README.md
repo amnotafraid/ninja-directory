@@ -1,6 +1,11 @@
 # Net Ninja Tutorial
 
 The [Net Ninja Youtube Tutorial Lesson 8](https://www.youtube.com/watch?v=uQZDNTeR44E) was published on August 9, 2016. At this time, there is no need to import the home component or add the directives.  Hence this branch is exactly like Lesson 7.
+
+In the src/app/app.component.ts file, I did not need this in the decorator:
+```
+directives: [HomeComponent]
+```
  
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ***
