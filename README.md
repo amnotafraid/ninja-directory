@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 9](https://www.youtube.com/watch?v=7RQDIChgaZk) was published on August 13, 2016. 
+The [Net Ninja Youtube Tutorial Lesson 9 - Ng-Content Directive](https://www.youtube.com/watch?v=7RQDIChgaZk) was published on August 13, 2016. 
 
 I didn't need to change anything to get the code to work as expected.
 
