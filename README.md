@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 11](https://www.youtube.com/watch?v=VkxyuKuJZrM) was published on August 15, 2016.
+The [Net Ninja Youtube Tutorial Lesson 11 - Property Binding](https://www.youtube.com/watch?v=VkxyuKuJZrM) was published on August 15, 2016.
 
 This did not work for me:
 ```
