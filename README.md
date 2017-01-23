@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 6](https://www.youtube.com/watch?v=A90UT3o5bMk) was published on August 7, 2016.  Net Ninja says to make a styles.css file in the public directory, but there isn't one.
+The [Net Ninja Youtube Tutorial Lesson 6 - Templates & CSS](https://www.youtube.com/watch?v=A90UT3o5bMk) was published on August 7, 2016.  Net Ninja says to make a styles.css file in the public directory, but there isn't one.
 
 No worries.  You can just use the one that is already created for us in src/styles.css.  Import it to index.html by adding this line:
 
