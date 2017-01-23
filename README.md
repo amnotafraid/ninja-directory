@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 12](https://www.youtube.com/watch?v=uh5ZKGEEAkY) was published on August 15, 2016.
+The [Net Ninja Youtube Tutorial Lesson 12 - Event Binding](https://www.youtube.com/watch?v=uh5ZKGEEAkY) was published on August 15, 2016.
 
 This is what I need to remember from this lesson:
 
