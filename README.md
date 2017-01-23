@@ -1,6 +1,6 @@
 # Net Ninja Tutorial
 
-The [Net Ninja Youtube Tutorial Lesson 13](https://www.youtube.com/watch?v=HXjVelFtpuQ) was published on August 18, 2016.
+The [Net Ninja Youtube Tutorial Lesson 13 - 2 Way Data Binding](https://www.youtube.com/watch?v=HXjVelFtpuQ) was published on August 18, 2016.
 
 Below the horizontal line is readme that Angular 2 kindly generated for me.
 ***
